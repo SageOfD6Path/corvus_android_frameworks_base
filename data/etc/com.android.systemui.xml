@@ -82,6 +82,5 @@
         <permission name="android.permission.FORCE_STOP_PACKAGES" />
         <permission name="android.permission.WRITE_APN_SETTINGS" />
         <permission name="android.permission.PREVENT_POWER_KEY" />
-	      <permission name="android.permission.OBSERVE_SENSOR_PRIVACY" />
     </privapp-permissions>
 </permissions>
