@@ -13391,8 +13391,7 @@ public class TelephonyManager {
             UPDATE_AVAILABLE_NETWORKS_MULTIPLE_NETWORKS_NOT_SUPPORTED,
             UPDATE_AVAILABLE_NETWORKS_NO_OPPORTUNISTIC_SUB_AVAILABLE,
             UPDATE_AVAILABLE_NETWORKS_REMOTE_SERVICE_EXCEPTION,
-            UPDATE_AVAILABLE_NETWORKS_SERVICE_IS_DISABLED,
-            UPDATE_AVAILABLE_NETWORKS_SIM_PORT_NOT_AVAILABLE})
+            UPDATE_AVAILABLE_NETWORKS_SERVICE_IS_DISABLED})
     public @interface UpdateAvailableNetworksResult {}
 
     /**
@@ -13449,12 +13448,6 @@ public class TelephonyManager {
      * OpportunisticNetworkService is disabled.
      */
     public static final int UPDATE_AVAILABLE_NETWORKS_SERVICE_IS_DISABLED = 10;
-
-    /**
-     * SIM port is not available to switch to opportunistic subscription.
-     * @hide
-     */
-    public static final int UPDATE_AVAILABLE_NETWORKS_SIM_PORT_NOT_AVAILABLE = 11;
 
     /**
      * Set preferred opportunistic data subscription id.
